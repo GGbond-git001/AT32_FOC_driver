@@ -1,0 +1,20 @@
+./objects/filteringfunctionsf16.o: \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\FilteringFunctionsF16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_fir_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\filtering_functions_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\none.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\utils.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_fir_init_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_df1_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_df2T_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_init_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_correlate_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FilteringFunctions\arm_levinson_durbin_f16.c

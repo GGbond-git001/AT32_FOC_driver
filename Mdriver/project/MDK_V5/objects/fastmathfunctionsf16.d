@@ -1,0 +1,21 @@
+./objects/fastmathfunctionsf16.o: \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FastMathFunctions\FastMathFunctionsF16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FastMathFunctions\arm_vexp_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\fast_math_functions_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\none.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\utils.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\fast_math_functions.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\basic_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_vec_math_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_common_tables_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_helium_utils.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FastMathFunctions\arm_vlog_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\support_functions_f16.h \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FastMathFunctions\arm_vinverse_f16.c \
+  E:\ProgramFile\MDK\Packs\ARM\CMSIS-DSP\1.16.2\Source\FastMathFunctions\arm_atan2_f16.c

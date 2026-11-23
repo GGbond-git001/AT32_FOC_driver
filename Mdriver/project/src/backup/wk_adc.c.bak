@@ -1,0 +1,281 @@
+/* add user code begin Header */
+/**
+  **************************************************************************
+  * @file     wk_adc.c
+  * @brief    work bench config program
+  **************************************************************************
+  *
+  * Copyright (c) 2025, Artery Technology, All rights reserved.
+  * SPDX-License-Identifier: BSD-3-Clause
+  *
+  **************************************************************************
+  */
+/* add user code end Header */
+
+/* Includes ------------------------------------------------------------------*/
+#include "wk_adc.h"
+
+/* add user code begin 0 */
+
+/* add user code end 0 */
+
+/**
+  * @brief  init adc-common function.
+  * @param  none
+  * @retval none
+  */
+void wk_adc_common_init(void)
+{
+  /* add user code begin adc_common_init 0 */
+
+  /* add user code end adc_common_init 0 */
+
+  adc_common_config_type adc_common_struct;
+
+  /* add user code begin adc_common_init 1 */
+
+  /* add user code end adc_common_init 1 */
+
+  adc_reset();
+
+  /* adc_common_settings------------------------------------------------------------ */
+  adc_common_default_para_init(&adc_common_struct);
+  adc_common_struct.combine_mode = ADC_INDEPENDENT_MODE;
+  adc_common_struct.div = ADC_HCLK_DIV_4;
+  adc_common_struct.common_dma_mode = ADC_COMMON_DMAMODE_DISABLE;
+  adc_common_struct.common_dma_request_repeat_state = FALSE;
+  adc_common_struct.sampling_interval = ADC_SAMPLING_INTERVAL_5CYCLES;
+  adc_common_struct.tempervintrv_state = FALSE;
+  adc_common_struct.vbat_state = FALSE;
+  adc_common_config(&adc_common_struct);
+  
+  /* add user code begin adc_common_init 2 */
+
+  /* add user code end adc_common_init 2 */
+}
+
+/**
+  * @brief  init adc1 function.
+  * @param  none
+  * @retval none
+  */
+void wk_adc1_init(void)
+{
+  /* add user code begin adc1_init 0 */
+
+  /* add user code end adc1_init 0 */
+
+  gpio_init_type gpio_init_struct;
+  adc_base_config_type adc_base_struct;
+
+  gpio_default_para_init(&gpio_init_struct);
+
+  /* add user code begin adc1_init 1 */
+
+  /* add user code end adc1_init 1 */
+
+  /*gpio--------------------------------------------------------------------*/ 
+  /* configure the IN0 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = CUR_A_PIN;
+  gpio_init(CUR_A_GPIO_PORT, &gpio_init_struct);
+
+  /* configure the IN3 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = V_Bus_PIN;
+  gpio_init(V_Bus_GPIO_PORT, &gpio_init_struct);
+
+  /* configure the IN8 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = TEMP_1_PIN;
+  gpio_init(TEMP_1_GPIO_PORT, &gpio_init_struct);
+
+  /* configure the IN9 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = TEMP_2_PIN;
+  gpio_init(TEMP_2_GPIO_PORT, &gpio_init_struct);
+
+  /* adc_settings------------------------------------------------------------------- */
+  adc_base_default_para_init(&adc_base_struct);
+  adc_base_struct.sequence_mode = TRUE;
+  adc_base_struct.repeat_mode = TRUE;
+  adc_base_struct.data_align = ADC_RIGHT_ALIGNMENT;
+  adc_base_struct.ordinary_channel_length = 3;
+  adc_base_config(ADC1, &adc_base_struct);
+
+  adc_resolution_set(ADC1, ADC_RESOLUTION_12B);
+
+  /* adc_ordinary_conversionmode---------------------------------------------------- */
+  adc_ordinary_channel_set(ADC1, ADC_CHANNEL_3, 1, ADC_SAMPLETIME_247_5);
+  adc_ordinary_channel_set(ADC1, ADC_CHANNEL_8, 2, ADC_SAMPLETIME_247_5);
+  adc_ordinary_channel_set(ADC1, ADC_CHANNEL_9, 3, ADC_SAMPLETIME_247_5);
+
+  /* When "ADC_ORDINARY_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
+  The software trigger function is adc_ordinary_software_trigger_enable(ADCx, TRUE); */
+  adc_ordinary_conversion_trigger_set(ADC1,  ADC_ORDINARY_TRIG_TMR1TRGOUT, ADC_ORDINARY_TRIG_EDGE_NONE);
+
+  adc_dma_mode_enable(ADC1, TRUE);
+  adc_dma_request_repeat_enable(ADC1, TRUE);
+
+  /* adc_preempt_conversionmode----------------------------------------------------- */
+  adc_preempt_channel_length_set(ADC1, 1);
+
+  adc_preempt_channel_set(ADC1, ADC_CHANNEL_0, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_offset_value_set(ADC1, ADC_PREEMPT_CHANNEL_1, 0x0);
+
+  /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
+  The software trigger function is adc_preempt_software_trigger_enable(ADCx, TRUE); */
+  adc_preempt_conversion_trigger_set(ADC1, ADC_PREEMPT_TRIG_TMR1TRGOUT, ADC_PREEMPT_TRIG_EDGE_RISING);
+
+  /* enable preempted channels conversion end interrupt */
+  adc_interrupt_enable(ADC1, ADC_PCCE_INT, TRUE);
+
+  /* add user code begin adc1_init 2 */
+
+  /* add user code end adc1_init 2 */
+
+  adc_enable(ADC1, TRUE);
+  while(adc_flag_get(ADC1, ADC_RDY_FLAG) == RESET);
+
+  /* adc calibration---------------------------------------------------------------- */
+  adc_calibration_init(ADC1);
+  while(adc_calibration_init_status_get(ADC1));
+  adc_calibration_start(ADC1);
+  while(adc_calibration_status_get(ADC1));
+
+  /* add user code begin adc1_init 3 */
+
+  /* add user code end adc1_init 3 */
+}
+
+/**
+  * @brief  init adc2 function.
+  * @param  none
+  * @retval none
+  */
+void wk_adc2_init(void)
+{
+  /* add user code begin adc2_init 0 */
+
+  /* add user code end adc2_init 0 */
+
+  gpio_init_type gpio_init_struct;
+  adc_base_config_type adc_base_struct;
+
+  gpio_default_para_init(&gpio_init_struct);
+
+  /* add user code begin adc2_init 1 */
+
+  /* add user code end adc2_init 1 */
+
+  /*gpio--------------------------------------------------------------------*/ 
+  /* configure the IN1 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = CUR_B_PIN;
+  gpio_init(CUR_B_GPIO_PORT, &gpio_init_struct);
+
+  /* adc_settings------------------------------------------------------------------- */
+  adc_base_default_para_init(&adc_base_struct);
+  adc_base_struct.sequence_mode = FALSE;
+  adc_base_struct.repeat_mode = FALSE;
+  adc_base_struct.data_align = ADC_RIGHT_ALIGNMENT;
+  adc_base_struct.ordinary_channel_length = 1;
+  adc_base_config(ADC2, &adc_base_struct);
+
+  adc_resolution_set(ADC2, ADC_RESOLUTION_12B);
+
+  /* adc_preempt_conversionmode----------------------------------------------------- */
+  adc_preempt_channel_length_set(ADC2, 1);
+
+  adc_preempt_channel_set(ADC2, ADC_CHANNEL_1, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_offset_value_set(ADC2, ADC_PREEMPT_CHANNEL_1, 0x0);
+
+  /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
+  The software trigger function is adc_preempt_software_trigger_enable(ADCx, TRUE); */
+  adc_preempt_conversion_trigger_set(ADC2, ADC_PREEMPT_TRIG_TMR1TRGOUT, ADC_PREEMPT_TRIG_EDGE_RISING);
+
+  /* add user code begin adc2_init 2 */
+
+  /* add user code end adc2_init 2 */
+
+  adc_enable(ADC2, TRUE);
+  while(adc_flag_get(ADC2, ADC_RDY_FLAG) == RESET);
+
+  /* adc calibration---------------------------------------------------------------- */
+  adc_calibration_init(ADC2);
+  while(adc_calibration_init_status_get(ADC2));
+  adc_calibration_start(ADC2);
+  while(adc_calibration_status_get(ADC2));
+
+  /* add user code begin adc2_init 3 */
+
+  /* add user code end adc2_init 3 */
+}
+
+/**
+  * @brief  init adc3 function.
+  * @param  none
+  * @retval none
+  */
+void wk_adc3_init(void)
+{
+  /* add user code begin adc3_init 0 */
+
+  /* add user code end adc3_init 0 */
+
+  gpio_init_type gpio_init_struct;
+  adc_base_config_type adc_base_struct;
+
+  gpio_default_para_init(&gpio_init_struct);
+
+  /* add user code begin adc3_init 1 */
+
+  /* add user code end adc3_init 1 */
+
+  /*gpio--------------------------------------------------------------------*/ 
+  /* configure the IN2 pin */
+  gpio_init_struct.gpio_mode = GPIO_MODE_ANALOG;
+  gpio_init_struct.gpio_pins = CUR_C_PIN;
+  gpio_init(CUR_C_GPIO_PORT, &gpio_init_struct);
+
+  /* adc_settings------------------------------------------------------------------- */
+  adc_base_default_para_init(&adc_base_struct);
+  adc_base_struct.sequence_mode = FALSE;
+  adc_base_struct.repeat_mode = FALSE;
+  adc_base_struct.data_align = ADC_RIGHT_ALIGNMENT;
+  adc_base_struct.ordinary_channel_length = 1;
+  adc_base_config(ADC3, &adc_base_struct);
+
+  adc_resolution_set(ADC3, ADC_RESOLUTION_12B);
+
+  /* adc_preempt_conversionmode----------------------------------------------------- */
+  adc_preempt_channel_length_set(ADC3, 1);
+
+  adc_preempt_channel_set(ADC3, ADC_CHANNEL_2, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_offset_value_set(ADC3, ADC_PREEMPT_CHANNEL_1, 0x0);
+
+  /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
+  The software trigger function is adc_preempt_software_trigger_enable(ADCx, TRUE); */
+  adc_preempt_conversion_trigger_set(ADC3, ADC_PREEMPT_TRIG_TMR1TRGOUT, ADC_PREEMPT_TRIG_EDGE_RISING);
+
+  /* add user code begin adc3_init 2 */
+
+  /* add user code end adc3_init 2 */
+
+  adc_enable(ADC3, TRUE);
+  while(adc_flag_get(ADC3, ADC_RDY_FLAG) == RESET);
+
+  /* adc calibration---------------------------------------------------------------- */
+  adc_calibration_init(ADC3);
+  while(adc_calibration_init_status_get(ADC3));
+  adc_calibration_start(ADC3);
+  while(adc_calibration_status_get(ADC3));
+
+  /* add user code begin adc3_init 3 */
+
+  /* add user code end adc3_init 3 */
+}
+
+/* add user code begin 1 */
+
+/* add user code end 1 */

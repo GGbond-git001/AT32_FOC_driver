@@ -1,0 +1,205 @@
+/* add user code begin Header */
+/**
+  **************************************************************************
+  * @file     main.c
+  * @brief    main program
+  **************************************************************************
+  *
+  * Copyright (c) 2025, Artery Technology, All rights reserved.
+  * SPDX-License-Identifier: BSD-3-Clause
+  *
+  **************************************************************************
+  */
+/* add user code end Header */
+
+/* Includes ------------------------------------------------------------------*/
+#include "at32f435_437_wk_config.h"
+#include "wk_adc.h"
+#include "wk_spi.h"
+#include "wk_tmr.h"
+#include "wk_usart.h"
+#include "wk_dma.h"
+#include "wk_gpio.h"
+#include "wk_system.h"
+#include "arm_math.h"
+
+/* private includes ----------------------------------------------------------*/
+/* add user code begin private includes */
+
+#include "foc_app.h"
+
+/* add user code end private includes */
+
+/* private typedef -----------------------------------------------------------*/
+/* add user code begin private typedef */
+
+typedef struct {
+    float buff[10];
+    uint8_t tail[4];
+} Vofa_Struct; 
+
+Vofa_Struct Vofa_buff;
+
+
+/* add user code end private typedef */
+
+/* private define ------------------------------------------------------------*/
+/* add user code begin private define */
+
+/* add user code end private define */
+
+/* private macro -------------------------------------------------------------*/
+/* add user code begin private macro */
+
+/* add user code end private macro */
+
+/* private variables ---------------------------------------------------------*/
+/* add user code begin private variables */
+
+/* add user code end private variables */
+
+/* private function prototypes --------------------------------------------*/
+/* add user code begin function prototypes */
+
+/* add user code end function prototypes */
+
+/* private user code ---------------------------------------------------------*/
+/* add user code begin 0 */
+
+static void Vofa_Send_DMA(void)
+{
+    if ((DMA1_CHANNEL2->ctrl_bit.chen != 0) && (dma_flag_get(DMA1_FDT2_FLAG) == RESET)) {
+        return;
+    }
+
+//    Vofa_buff.buff[0] = (float)FOC_Open.ccr_a;
+//    Vofa_buff.buff[1] = (float)FOC_Open.ccr_b;
+//    Vofa_buff.buff[2] = (float)FOC_Open.ccr_c;
+	Vofa_buff.buff[0] = FOC_Encoder.total_mech_angle;
+    Vofa_buff.buff[1] = FOC_Encoder.mech_angle;
+	Vofa_buff.buff[2] = FOC_ADC_Sensor.v_bus;
+    Vofa_buff.buff[3] = FOC_ADC_Sensor.i_abc.a;
+    Vofa_buff.buff[4] = FOC_ADC_Sensor.i_abc.b;
+    Vofa_buff.buff[5] = FOC_ADC_Sensor.i_abc.c;
+	Vofa_buff.buff[6] = (float)SPMSM_ID.state;   //(3=完成, 8=异常)        
+    Vofa_buff.buff[7] = SPMSM_ID.param.Rs;               
+    Vofa_buff.buff[8] = SPMSM_ID.param.Ls * 1000.0f;     
+    Vofa_buff.buff[9] = SPMSM_ID.param.elec_phase_deg;  
+
+
+    /* 关闭通道2 -> 清除传输完成标志 -> 重载地址与长度 -> 重新开启 */
+    dma_channel_enable(DMA1_CHANNEL2, FALSE);
+    dma_flag_clear(DMA1_FDT2_FLAG);
+    wk_dma_channel_config(DMA1_CHANNEL2,
+                          (uint32_t)&(USART3->dt),
+                          (uint32_t)&Vofa_buff,
+                          sizeof(Vofa_Struct));
+    dma_channel_enable(DMA1_CHANNEL2, TRUE);
+}
+/* add user code end 0 */
+
+/**
+  * @brief main function.
+  * @param  none
+  * @retval none
+  */
+int main(void)
+{
+  /* add user code begin 1 */
+
+  /* add user code end 1 */
+
+  /* system clock config. */
+  wk_system_clock_config();
+
+  /* config periph clock. */
+  wk_periph_clock_config();
+
+  /* nvic config. */
+  wk_nvic_config();
+
+  /* timebase config for
+     void wk_delay_us(uint32_t delay);
+     void wk_delay_ms(uint32_t delay); */
+  wk_timebase_init();
+
+  /* init gpio function. */
+  wk_gpio_config();
+
+  /* init dma1 channel2 */
+  wk_dma1_channel2_init();
+  /* config dma channel transfer parameter */
+  /* user need to modify define values DMAx_CHANNELy_XXX_BASE_ADDR 
+     and DMAx_CHANNELy_BUFFER_SIZE in at32xxx_wk_config.h */
+  wk_dma_channel_config(DMA1_CHANNEL2, 
+                        (uint32_t)&USART3->dt, 
+                        DMA1_CHANNEL2_MEMORY_BASE_ADDR, 
+                        DMA1_CHANNEL2_BUFFER_SIZE);
+  dma_channel_enable(DMA1_CHANNEL2, TRUE);
+
+  /* init usart3 function. */
+  wk_usart3_init();
+
+  /* init spi1 function. */
+  wk_spi1_init();
+
+  /* init spi3 function. */
+  wk_spi3_init();
+
+  /* init tmr1 function. */
+  wk_tmr1_init();
+
+  /* init adc-common function. */
+  wk_adc_common_init();
+
+  /* init adc1 function. */
+  wk_adc1_init();
+
+  /* init adc2 function. */
+  wk_adc2_init();
+
+  /* init adc3 function. */
+  wk_adc3_init();
+
+  /* init dma1 channel3 */
+  wk_dma1_channel3_init();
+  /* config dma channel transfer parameter */
+  /* user need to modify define values DMAx_CHANNELy_XXX_BASE_ADDR 
+     and DMAx_CHANNELy_BUFFER_SIZE in at32xxx_wk_config.h */
+  wk_dma_channel_config(DMA1_CHANNEL3, 
+                        (uint32_t)&ADC1->odt, 
+                        DMA1_CHANNEL3_MEMORY_BASE_ADDR, 
+                        DMA1_CHANNEL3_BUFFER_SIZE);
+  dma_channel_enable(DMA1_CHANNEL3, TRUE);
+
+  /* add user code begin 2 */
+  
+  Vofa_buff.tail[0] = 0x00;
+  Vofa_buff.tail[1] = 0x00;
+  Vofa_buff.tail[2] = 0x80;
+  Vofa_buff.tail[3] = 0x7F;
+  
+  dma_channel_enable(DMA1_CHANNEL2, FALSE);
+  dma_flag_clear(DMA1_FDT2_FLAG);
+  usart_dma_transmitter_enable(USART3, TRUE);
+
+  wk_delay_ms(100);
+  
+  ALL_Init();
+
+  /* add user code end 2 */
+
+  while(1)
+  {
+    /* add user code begin 3 */
+	  
+	Vofa_Send_DMA();
+    wk_delay_ms(1);
+
+    /* add user code end 3 */
+  }
+}
+
+  /* add user code begin 4 */
+
+  /* add user code end 4 */

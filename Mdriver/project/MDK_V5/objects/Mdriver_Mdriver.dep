@@ -1,0 +1,1376 @@
+Dependencies for Project 'Mdriver', Target 'Mdriver': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (..\src\at32f435_437_int.c)(0x6B02F62B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_int.o -MMD)
+I (..\inc\at32f435_437_int.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\User\Bsp\bsp_adc.h)(0x6B004D98)
+F (..\src\at32f435_437_wk_config.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_wk_config.o -MMD)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\main.c)(0x6B042535)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/main.o -MMD)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\inc\wk_adc.h)(0x6B02F62A)
+I (..\inc\wk_spi.h)(0x6B02F62A)
+I (..\inc\wk_tmr.h)(0x6B02F62A)
+I (..\inc\wk_usart.h)(0x6B02F62A)
+I (..\inc\wk_dma.h)(0x6B02F62A)
+I (..\inc\wk_gpio.h)(0x6B02F62A)
+I (..\inc\wk_system.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\App\foc_app.h)(0x6B0407E8)
+I (..\User\Bsp\bsp_adc.h)(0x6B004D98)
+I (..\User\Bsp\bsp_spi.h)(0x6B00484D)
+I (..\User\Bsp\bsp_tim.h)(0x6B004A7A)
+I (..\User\Mid\svpwm.h)(0x6B03FBCB)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\User\Mid\foc_sensor.h)(0x6B03FF51)
+I (..\User\Mid\foc_encoder.h)(0x6B04211C)
+I (..\User\Mid\pid.h)(0x6A103CF0)
+I (..\User\Mid\spmsm.h)(0x6B04204C)
+F (..\src\wk_system.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_system.o -MMD)
+I (..\inc\wk_system.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_spi.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_spi.o -MMD)
+I (..\inc\wk_spi.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_tmr.c)(0x6B02F629)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_tmr.o -MMD)
+I (..\inc\wk_tmr.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_usart.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_usart.o -MMD)
+I (..\inc\wk_usart.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_dma.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_dma.o -MMD)
+I (..\inc\wk_dma.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_gpio.c)(0x6B02F62A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_gpio.o -MMD)
+I (..\inc\wk_gpio.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\src\wk_adc.c)(0x6B02F629)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/wk_adc.o -MMD)
+I (..\inc\wk_adc.h)(0x6B02F62A)
+I (..\inc\at32f435_437_wk_config.h)(0x6B02F62A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_crm.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_crm.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_tmr.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_tmr.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_gpio.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_gpio.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_usart.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_usart.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_pwc.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_pwc.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_adc.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_adc.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_spi.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_spi.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_dma.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_dma.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_debug.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_debug.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_flash.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_flash.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\..\libraries\drivers\src\at32f435_437_misc.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/at32f435_437_misc.o -MMD)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (.\startup_at32f435_437.s)(0x6B02F629)(--cpu Cortex-M4.fp.sp -g --diag_suppress=A1950W-IE:\ProgramFile\MDK\Packs\ArteryTek\AT32F435_437_DFP\2.2.8\Device\Include--pd "__UVISION_VERSION SETA 543"--pd "AT32F435CGT7 SETA 1"--list .\listings\startup_at32f435_437.lst--xref -o .\objects\startup_at32f435_437.o--depend .\objects\startup_at32f435_437.d)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/system_at32f435_437.o -MMD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\User\Bsp\bsp_adc.c)(0x6B02A6B2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/bsp_adc.o -MMD)
+I (..\User\Bsp\bsp_adc.h)(0x6B004D98)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\User\Bsp\bsp_tim.c)(0x6B023CD8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/bsp_tim.o -MMD)
+I (..\User\Bsp\bsp_tim.h)(0x6B004A7A)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\User\Mid\svpwm.h)(0x6B03FBCB)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+F (..\User\Bsp\bsp_spi.c)(0x6B00484D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/bsp_spi.o -MMD)
+I (..\User\Bsp\bsp_spi.h)(0x6B00484D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\User\Mid\pid.c)(0x6A12E03D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/pid.o -MMD)
+I (..\User\Mid\pid.h)(0x6A103CF0)
+F (..\User\Mid\foc_math.c)(0x6AFE9260)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/foc_math.o -MMD)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+F (..\User\Mid\foc_sensor.c)(0x6B002383)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/foc_sensor.o -MMD)
+I (..\User\Mid\foc_sensor.h)(0x6B03FF51)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\User\Bsp\bsp_adc.h)(0x6B004D98)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+F (..\User\Mid\foc_encoder.c)(0x6B04211C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/foc_encoder.o -MMD)
+I (..\User\Mid\foc_encoder.h)(0x6B04211C)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\User\Bsp\bsp_spi.h)(0x6B00484D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\inc\wk_system.h)(0x6B02F62A)
+F (..\User\Mid\svpwm.c)(0x6B004AA0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/svpwm.o -MMD)
+I (..\User\Mid\svpwm.h)(0x6B03FBCB)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\User\Bsp\bsp_tim.h)(0x6B004A7A)
+F (..\User\Mid\spmsm.c)(0x6B04211C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/spmsm.o -MMD)
+I (..\User\Mid\spmsm.h)(0x6B04204C)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\User\Mid\pid.h)(0x6A103CF0)
+F (..\User\App\foc_app.c)(0x6B042578)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/foc_app.o -MMD)
+I (..\User\App\foc_app.h)(0x6B0407E8)
+I (..\User\Bsp\bsp_adc.h)(0x6B004D98)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x6AFC5010)
+I (..\inc\at32f435_437_conf.h)(0x6B02F62A)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x6AFC5010)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x6AFC5010)
+I (..\User\Bsp\bsp_spi.h)(0x6B00484D)
+I (..\User\Bsp\bsp_tim.h)(0x6B004A7A)
+I (..\User\Mid\svpwm.h)(0x6B03FBCB)
+I (..\User\Mid\foc_math.h)(0x6AFE9260)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\User\Mid\foc_const.h)(0x6AFDB822)
+I (..\User\Mid\foc_sensor.h)(0x6B03FF51)
+I (..\User\Mid\foc_encoder.h)(0x6B04211C)
+I (..\User\Mid\pid.h)(0x6A103CF0)
+I (..\User\Mid\spmsm.h)(0x6B04204C)
+I (..\inc\wk_system.h)(0x6B02F62A)
+F (../../libraries/cmsis/dsp/Source/BasicMathFunctions/BasicMathFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/basicmathfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_abs_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_abs_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_abs_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_abs_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_abs_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_add_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_add_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_add_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_add_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_add_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_and_u16.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_and_u32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_and_u8.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_dot_prod_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_dot_prod_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_dot_prod_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_dot_prod_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_dot_prod_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_mult_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_mult_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_mult_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_mult_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_mult_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_negate_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_negate_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_negate_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_negate_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_negate_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_not_u16.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_not_u32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_not_u8.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_offset_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_offset_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_offset_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_offset_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_offset_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_or_u16.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_or_u32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_or_u8.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_scale_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_scale_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_scale_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_scale_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_scale_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_shift_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_shift_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_shift_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_sub_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_sub_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_sub_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_sub_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_sub_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_xor_u16.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_xor_u32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_xor_u8.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_clip_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_clip_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_clip_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\BasicMathFunctions\arm_clip_q7.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/BayesFunctions/BayesFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/bayesfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/CommonTables/CommonTables.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/commontables.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\CommonTables\arm_common_tables.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\CommonTables\arm_const_structs.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_const_structs.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\CommonTables\arm_mve_tables.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/ComplexMathFunctions/ComplexMathFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/complexmathfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/ControllerFunctions/ControllerFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/controllerfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_sin_cos_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_sin_cos_q31.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/DistanceFunctions/DistanceFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/distancefunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_boolean_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_boolean_distance_template.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_braycurtis_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_canberra_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_chebyshev_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_chebyshev_distance_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cityblock_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cityblock_distance_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_correlation_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cosine_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cosine_distance_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_dice_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_euclidean_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_euclidean_distance_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_hamming_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_jaccard_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_jensenshannon_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_kulsinski_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_minkowski_distance_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_rogerstanimoto_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_russellrao_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_sokalmichener_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_sokalsneath_distance.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_yule_distance.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/FastMathFunctions/FastMathFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/fastmathfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sqrt_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sqrt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vexp_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vexp_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_divide_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_divide_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_q15.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/FilteringFunctions/FilteringFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/filteringfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df1_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df2T_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df2T_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_fast_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_opt_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_fast_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_opt_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_partial_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_conv_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_fast_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_opt_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_opt_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_correlate_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_decimate_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_init_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_init_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_interpolate_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_lattice_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_init_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_fir_sparse_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_iir_lattice_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_norm_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_lms_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_levinson_durbin_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\FilteringFunctions\arm_levinson_durbin_q31.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/InterpolationFunctions/InterpolationFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/interpolationfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_bilinear_interp_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_bilinear_interp_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_bilinear_interp_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_bilinear_interp_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_linear_interp_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_linear_interp_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_linear_interp_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_linear_interp_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_spline_interp_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\InterpolationFunctions\arm_spline_interp_init_f32.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/MatrixFunctions/MatrixFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/matrixfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_add_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_add_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_add_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_mult_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_mult_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_mult_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_inverse_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_inverse_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_fast_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_fast_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_mult_opt_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_scale_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_scale_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_scale_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_sub_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_sub_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_sub_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_sub_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_trans_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_trans_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_trans_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_trans_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_trans_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_vec_mult_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_vec_mult_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_vec_mult_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_vec_mult_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_trans_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_trans_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cmplx_trans_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cholesky_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_cholesky_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_solve_upper_triangular_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_solve_lower_triangular_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_solve_upper_triangular_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_solve_lower_triangular_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_ldlt_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\MatrixFunctions\arm_mat_ldlt_f64.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/QuaternionMathFunctions/QuaternionMathFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/quaternionmathfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_norm_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_inverse_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_conjugate_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_normalize_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_product_single_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion_product_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_quaternion2rotation_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\QuaternionMathFunctions\arm_rotation2quaternion_f32.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/StatisticsFunctions/StatisticsFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/statisticsfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_entropy_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_entropy_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_kullback_leibler_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_kullback_leibler_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_logsumexp_dot_prod_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_logsumexp_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_no_idx_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_no_idx_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_no_idx_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_no_idx_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_max_no_idx_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mean_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mean_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mean_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mean_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mean_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_no_idx_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_no_idx_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_no_idx_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_no_idx_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_min_no_idx_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_power_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_power_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_power_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_power_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_power_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_rms_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_rms_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_rms_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_std_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_std_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_std_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_std_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_var_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_var_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_var_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_var_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_no_idx_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_no_idx_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_no_idx_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_no_idx_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmax_no_idx_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_no_idx_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_no_idx_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_no_idx_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_no_idx_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_absmin_no_idx_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mse_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mse_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mse_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mse_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\StatisticsFunctions\arm_mse_f64.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/SupportFunctions/SupportFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/supportfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_barycenter_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\support_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_bitonic_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\PrivateInclude\arm_sorting.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\interpolation_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\bayes_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\filtering_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\quaternion_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_bubble_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_copy_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_copy_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_copy_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_copy_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_copy_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_fill_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_fill_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_fill_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_fill_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_fill_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_heap_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_insertion_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_merge_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_merge_sort_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_quick_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_selection_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_sort_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_sort_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_weighted_sum_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_float_to_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_float_to_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_float_to_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q15_to_float.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q15_to_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q15_to_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q31_to_float.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q31_to_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q31_to_q7.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q7_to_float.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q7_to_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SupportFunctions\arm_q7_to_q31.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/SVMFunctions/SVMFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/svmfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_linear_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\svm_defines.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_linear_predict_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_polynomial_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_polynomial_predict_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_rbf_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_rbf_predict_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_sigmoid_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\SVMFunctions\arm_svm_sigmoid_predict_f32.c)(0x6AFC5010)
+F (../../libraries/cmsis/dsp/Source/TransformFunctions/TransformFunctions.c)(0x6AFC5010)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../User/App -I ../User/Mid -I ../User/Bsp -I ../../libraries/cmsis/dsp/include -I ../../libraries/cmsis/dsp/PrivateInclude-IE:/ProgramFile/MDK/Packs/ArteryTek/AT32F435_437_DFP/2.2.8/Device/Include-D__UVISION_VERSION="543" -DAT32F435CGT7 -DAT32F435CGT7 -DUSE_STDPERIPH_DRIVER -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DARM_MATH_LOOPUNROLL -D__FPU_PRESENT="1U"-o ./objects/transformfunctions.o -MMD)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_bitreversal.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\transform_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_types.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\none.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\utils.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_bitreversal2.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\arm_const_structs.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_init_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix8_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_fast_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_fast_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_fast_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_fast_init_f64.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\cm4\core_support\dsp\matrix_functions.h)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_mfcc_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_dct4_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_rfft_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix4_init_q31.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_init_f32.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_init_q15.c)(0x6AFC5010)
+I (..\..\libraries\cmsis\dsp\Source\TransformFunctions\arm_cfft_radix2_init_q31.c)(0x6AFC5010)
