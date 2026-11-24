@@ -42,8 +42,8 @@
             <ParametersSub name="EnablePreemptedConversion" value="ENABLE"/>
             <ParametersSub name="PreemptedTriggerSource" value="ADC_PREEMPT_TRIG_TMR1TRGOUT"/>
             <ParametersSub name="Channel_PreemptedSequence_1" value="ADC_CHANNEL_0"/>
-            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_24_5"/>
-            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="1.946"/>
+            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_12_5"/>
+            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="2.880"/>
         </Parameters>
         <Interrupts>
             <InterruptsSub name="Interrupt_PCCE" value="TRUE"/>
@@ -57,8 +57,8 @@
             <ParametersSub name="EnablePreemptedConversion" value="ENABLE"/>
             <ParametersSub name="PreemptedTriggerSource" value="ADC_PREEMPT_TRIG_TMR1TRGOUT"/>
             <ParametersSub name="Channel_PreemptedSequence_1" value="ADC_CHANNEL_1"/>
-            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_24_5"/>
-            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="1.946"/>
+            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_12_5"/>
+            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="2.880"/>
         </Parameters>
     </ADC2>
     <ADC3>
@@ -69,8 +69,8 @@
             <ParametersSub name="EnablePreemptedConversion" value="ENABLE"/>
             <ParametersSub name="PreemptedTriggerSource" value="ADC_PREEMPT_TRIG_TMR1TRGOUT"/>
             <ParametersSub name="Channel_PreemptedSequence_1" value="ADC_CHANNEL_2"/>
-            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_24_5"/>
-            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="1.946"/>
+            <ParametersSub name="SamplingTime_PreemptedSequence_1" value="ADC_SAMPLETIME_12_5"/>
+            <ParametersSub name="SamplingRate_PreemptedSequence_1" value="2.880"/>
         </Parameters>
     </ADC3>
     <CRM>

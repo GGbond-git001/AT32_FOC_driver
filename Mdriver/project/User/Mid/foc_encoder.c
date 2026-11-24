@@ -1,5 +1,7 @@
 #include "foc_encoder.h"
 #include "bsp_spi.h"
+#include "bsp_tim.h"
+#include "svpwm.h"
 #include "wk_system.h"
 
 foc_encoder_t FOC_Encoder = {
@@ -162,7 +164,7 @@ bool FOC_Encoder_Set_Zero_From_Two_Raw(uint16_t raw_cw, uint16_t raw_ccw)
 }
 
 /**
- * @brief  单次吸合标定接口（保留兼容，内部已修复跨零点 Bug）
+ * @brief  单次吸合标定接口
  */
 bool FOC_Encoder_Set_Zero_Offset(void)
 {
@@ -171,5 +173,62 @@ bool FOC_Encoder_Set_Zero_Offset(void)
         return false;
     }
     return FOC_Encoder_Set_Zero_From_Two_Raw(avg_raw, avg_raw);
+}
+
+/**
+ * @brief  编码器零位双向自动标定与方向自检（阻塞执行，需在开启ADC中断前调用）
+ * @param  v_bus    当前直流母线电压 (V)
+ * @param  align_v  吸合对齐电压 (V)，建议 1.0f ~ 1.5f
+ * @return true 标定成功; false 编码器通信异常或弱磁故障
+ */
+bool FOC_Encoder_Auto_Calibrate(float v_bus, float align_v)
+{
+    svpwm_out_t pwm_out = {0};
+    uint16_t raw_p90 = 0, raw_0_a = 0, raw_0_b = 0;
+
+    //0->90
+    svpwm_calc(v_bus, FOC_PI * 0.5f, align_v, 0.0f, &pwm_out);
+    svpwm_set(&pwm_out);
+    wk_delay_ms(250);
+    if (!FOC_Encoder_Read_Avg_Raw(&raw_p90)) {
+        BSP_TIM_SetZeroVector();
+        return false;
+    }
+    //90->0
+    svpwm_calc(v_bus, 0.0f, align_v, 0.0f, &pwm_out);
+    svpwm_set(&pwm_out);
+    wk_delay_ms(300);
+    if (!FOC_Encoder_Read_Avg_Raw(&raw_0_a)) {
+        BSP_TIM_SetZeroVector();
+        return false;
+    }
+
+    //确定方向
+    int32_t dir_check = (int32_t)raw_p90 - (int32_t)raw_0_a;
+    if (dir_check > 8192)       dir_check -= 16384;
+    else if (dir_check < -8192) dir_check += 16384;
+    FOC_Encoder.dir = (dir_check >= 0) ? 1 : -1;
+
+    //0->-90
+    svpwm_calc(v_bus, FOC_PI * 1.5f, align_v, 0.0f, &pwm_out);
+    svpwm_set(&pwm_out);
+    wk_delay_ms(250);
+
+    //-90->0
+    svpwm_calc(v_bus, 0.0f, align_v, 0.0f, &pwm_out);
+    svpwm_set(&pwm_out);
+    wk_delay_ms(300);
+    if (!FOC_Encoder_Read_Avg_Raw(&raw_0_b)) {
+        BSP_TIM_SetZeroVector();
+        return false;
+    }
+
+   //校准
+    bool ok = FOC_Encoder_Set_Zero_From_Two_Raw(raw_0_a, raw_0_b);
+
+    /* 恢复 50% 零矢量 */
+    BSP_TIM_SetZeroVector();
+
+    return ok;
 }
 

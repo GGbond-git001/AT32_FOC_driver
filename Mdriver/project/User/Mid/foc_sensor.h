@@ -25,9 +25,9 @@ void FOC_ADC_Calibrate(uint16_t sample_count);
 
 static inline void Current_Calc(const adc_raw_t *raw)
 {
-    FOC_ADC_Sensor.i_abc.a = -((float)raw->ia - FOC_ADC_Sensor.offset_a) * CURRENT_LSB_TO_AMP;
-    FOC_ADC_Sensor.i_abc.b = -((float)raw->ib - FOC_ADC_Sensor.offset_b) * CURRENT_LSB_TO_AMP;
-    FOC_ADC_Sensor.i_abc.c = -((float)raw->ic - FOC_ADC_Sensor.offset_c) * CURRENT_LSB_TO_AMP;
+    FOC_ADC_Sensor.i_abc.a = ((float)raw->ia - FOC_ADC_Sensor.offset_a) * CURRENT_LSB_TO_AMP;
+    FOC_ADC_Sensor.i_abc.b = ((float)raw->ib - FOC_ADC_Sensor.offset_b) * CURRENT_LSB_TO_AMP;
+    FOC_ADC_Sensor.i_abc.c = ((float)raw->ic - FOC_ADC_Sensor.offset_c) * CURRENT_LSB_TO_AMP;
 }
 
 static inline void Voltage_Calc(const adc_raw_t *raw)

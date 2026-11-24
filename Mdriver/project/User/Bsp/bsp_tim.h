@@ -15,16 +15,16 @@ void BSP_TIM_SetZeroVector(void);
 
 /**
  * @brief  将 SVPWM 算出的三相 CCR 写入 TMR1 比较寄存器
- *         对应原理图: CH3->A相, CH2->B相, CH1->C相
+ *         
  */
 static inline void BSP_PWM_Set(const svpwm_out_t *out)
 {
     if (out == NULL) {
         return;
     }
-    TMR1->c3dt = out->ccr_a;
-    TMR1->c2dt = out->ccr_b;
-    TMR1->c1dt = out->ccr_c;
+    TMR1->c1dt = out->ccr_a;  /* PA8  -> PWMA */
+    TMR1->c2dt = out->ccr_b;  /* PA9  -> PWMB */
+    TMR1->c3dt = out->ccr_c;  /* PA10 -> PWMC */
 }
 
 #endif 

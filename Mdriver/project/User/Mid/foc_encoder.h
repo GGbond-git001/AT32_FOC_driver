@@ -32,5 +32,6 @@ bool FOC_Encoder_Update(uint16_t raw_frame16, float dt);
 bool FOC_Encoder_Read_Avg_Raw(uint16_t *avg_raw_out);
 bool FOC_Encoder_Set_Zero_From_Two_Raw(uint16_t raw_cw, uint16_t raw_ccw);
 bool FOC_Encoder_Set_Zero_Offset(void);
+bool FOC_Encoder_Auto_Calibrate(float v_bus, float align_v);
 
 #endif

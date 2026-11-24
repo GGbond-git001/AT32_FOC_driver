@@ -38,4 +38,5 @@
   ..\..\libraries\drivers\inc\at32f435_437_dma.h \
   ..\..\libraries\drivers\inc\at32f435_437_debug.h \
   ..\..\libraries\drivers\inc\at32f435_437_flash.h \
-  ..\..\libraries\drivers\inc\at32f435_437_misc.h ..\inc\wk_system.h
+  ..\..\libraries\drivers\inc\at32f435_437_misc.h ..\User\Bsp\bsp_tim.h \
+  ..\User\Mid\svpwm.h ..\inc\wk_system.h

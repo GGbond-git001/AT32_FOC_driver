@@ -28,7 +28,7 @@ void svpwm_calc(float v_bus, float target_theta, float ud, float uq, svpwm_out_t
     //算出角度的 sin 和 cos 
     Angle_t angle_sc = FOC_Angle_Calc(target_theta);
 
-    //给定Ud, Uq，逆Park变换得到 U_alpha,U_beta 
+    //逆Park变换得到 U_alpha,U_beta 
     dq_t u_dq = { .d = ud, .q = uq };
     alphabeta_t u_ab;
     FOC_Inv_Park(&u_dq, &u_ab, &angle_sc);
@@ -143,12 +143,12 @@ void svpwm_Translation_Method_calc(float v_bus, float target_theta, float ud, fl
     //算出角度的 sin 和 cos 
     Angle_t angle_sc = FOC_Angle_Calc(target_theta);
 
-    //给定Ud, Uq，逆Park变换得到 U_alpha,U_beta 
+    //逆Park变换得到 U_alpha,U_beta 
     dq_t u_dq = { .d = ud, .q = uq };
     alphabeta_t u_ab;
     FOC_Inv_Park(&u_dq, &u_ab, &angle_sc);
 	
-	// 逆 Park 得到 u_ab.alpha 和 u_ab.beta 后，直接计算三相相电压：
+	//计算三相相电压
 	float u_a = u_ab.alpha;
 	float u_b = -0.5f * u_ab.alpha + FOC_SQRT3_2 * u_ab.beta;
 	float u_c = -0.5f * u_ab.alpha - FOC_SQRT3_2 * u_ab.beta;

@@ -34,7 +34,7 @@
 /* add user code begin private typedef */
 
 typedef struct {
-    float buff[6];
+    float buff[10];
     uint8_t tail[4];
 } Vofa_Struct; 
 
@@ -75,11 +75,17 @@ static void Vofa_Send_DMA(void)
 //    Vofa_buff.buff[0] = (float)FOC_Open.ccr_a;
 //    Vofa_buff.buff[1] = (float)FOC_Open.ccr_b;
 //    Vofa_buff.buff[2] = (float)FOC_Open.ccr_c;
-    Vofa_buff.buff[1] = FOC_Encoder.mech_angle;
-	Vofa_buff.buff[2] = FOC_ADC_Sensor.v_bus;
-    Vofa_buff.buff[3] = FOC_ADC_Sensor.i_abc.a;
-    Vofa_buff.buff[4] = FOC_ADC_Sensor.i_abc.b;
-    Vofa_buff.buff[5] = FOC_ADC_Sensor.i_abc.c;
+	Vofa_buff.buff[0] = FOC_Encoder.total_mech_angle;
+    Vofa_buff.buff[1] = FOC_ADC_Sensor.v_bus;
+    Vofa_buff.buff[2] = target_id_a;                  
+    Vofa_buff.buff[3] = foc_id_real;                 
+    Vofa_buff.buff[4] = target_iq_a;                 
+    Vofa_buff.buff[5] = foc_iq_real;                 
+	Vofa_buff.buff[6] = (float)SPMSM_ID.state;   //(3=完成, 8=异常)        
+    Vofa_buff.buff[7] = FOC_ADC_Sensor.i_abc.a;
+    Vofa_buff.buff[8] = FOC_ADC_Sensor.i_abc.b;
+    Vofa_buff.buff[9] = FOC_ADC_Sensor.i_abc.c;
+
 
     /* 关闭通道2 -> 清除传输完成标志 -> 重载地址与长度 -> 重新开启 */
     dma_channel_enable(DMA1_CHANNEL2, FALSE);

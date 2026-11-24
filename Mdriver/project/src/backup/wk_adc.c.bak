@@ -120,7 +120,7 @@ void wk_adc1_init(void)
   /* adc_preempt_conversionmode----------------------------------------------------- */
   adc_preempt_channel_length_set(ADC1, 1);
 
-  adc_preempt_channel_set(ADC1, ADC_CHANNEL_0, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_channel_set(ADC1, ADC_CHANNEL_0, 1, ADC_SAMPLETIME_12_5);
   adc_preempt_offset_value_set(ADC1, ADC_PREEMPT_CHANNEL_1, 0x0);
 
   /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
@@ -187,7 +187,7 @@ void wk_adc2_init(void)
   /* adc_preempt_conversionmode----------------------------------------------------- */
   adc_preempt_channel_length_set(ADC2, 1);
 
-  adc_preempt_channel_set(ADC2, ADC_CHANNEL_1, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_channel_set(ADC2, ADC_CHANNEL_1, 1, ADC_SAMPLETIME_12_5);
   adc_preempt_offset_value_set(ADC2, ADC_PREEMPT_CHANNEL_1, 0x0);
 
   /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
@@ -251,7 +251,7 @@ void wk_adc3_init(void)
   /* adc_preempt_conversionmode----------------------------------------------------- */
   adc_preempt_channel_length_set(ADC3, 1);
 
-  adc_preempt_channel_set(ADC3, ADC_CHANNEL_2, 1, ADC_SAMPLETIME_24_5);
+  adc_preempt_channel_set(ADC3, ADC_CHANNEL_2, 1, ADC_SAMPLETIME_12_5);
   adc_preempt_offset_value_set(ADC3, ADC_PREEMPT_CHANNEL_1, 0x0);
 
   /* When "ADC_PREEMPT_TRIG_EDGE_NONE" is selected, the external trigger source is invalid, and user can only use software trigger. \
